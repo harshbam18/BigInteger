@@ -1,6 +1,8 @@
 #ifndef BIGINTEGER_H
 #define BIGINTEGER_H
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #define max 1001
 
 struct node {
