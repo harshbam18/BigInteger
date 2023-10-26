@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "BigInteger.h"
-#define max 1001
+
 void addatfront(struct node** n1, int data) {
     struct node* temp = (struct node*)malloc(sizeof(struct node));
     if (!temp) {
